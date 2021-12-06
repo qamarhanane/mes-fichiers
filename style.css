@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  border-bottom: 5px solid #6f6f6f;
+}
+nav h1 {
+  color: rgb(22, 20, 20);
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  margin-left: 5px;
+}
+nav .onglets {
+  margin-top: 3px;
+  margin-left: 700px;
+}
+nav .onglets a {
+  text-decoration: none;
+  color: rgb(22, 20, 20);
+  margin-right: 10px;
+  border-bottom: 1px solid rgb(22, 20, 20);
+  padding-bottom: 5px;
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(centre2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+header h4 {
+  margin-top: -20px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  font-family: sans-serif;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+.main h1 {
+  font-family: "Playfair Display", serif;
+  color: rgb(22, 20, 20);
+  font-size: large;
+}
+.main p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6f6f6f;
+  font-size: 15px;
+}
+.main .content .card {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.main .content .card .left {
+  flex: 0 0 30%;
+  padding: 5px;
+  background-color: white;
+  color: #5f6f6f;
+}
+.main .content .card .right img {
+  height: 200px;
+  width: 250px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 5px solid #6f6f6f;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 30px 100px;
+}
+
+@media screen and (max-width: 680px) {
+  nav .onglets {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .main .card {
+    margin: 10px;
+  }
+  .main .content .card .right img {
+    height: 200px;
+    width: 30%;
+    margin-top: -0px;
+  }
+  .main .content .card {
+    display: block;
+  }
+  footer {
+    padding: 30px;
+  }
+}
