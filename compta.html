@@ -1,0 +1,358 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comptabilité</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Open Sans", sans-serif;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 5px solid #6f6f6f; */
+      }
+      nav h1 {
+        color: rgb(22, 20, 20);
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        /* margin-left: 5px; */
+        text-align: center;
+      }
+      nav .onglets {
+        margin-top: 10px;
+        margin-left: 500px;
+      }
+      nav .onglets a {
+        text-decoration: none;
+        color: rgb(22, 20, 20);
+        margin-right: 10px;
+        /* border-bottom: 1px solid rgb(22, 20, 20); */
+        padding-bottom: 15px;
+        font-family: "Playfair Display", serif;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      header {
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        color: white;
+        padding: 100px;
+        background-color: white;
+        /* border-bottom: 2px #cac5c5; */
+        border: 1px solid;
+        padding: 5px;
+        box-shadow: 3px 5px #cec8c8;
+        /* border-top: 5px solid #6f6f6f; */
+        /* background-image: url(affaire.jpeg); */
+      }
+      IMG.imag {
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        margin-top: -10px;
+        border-color: black;
+      }
+      header.icons {
+        color: black;
+        /* background-position: 25% 75%;
+        cursor: pointer; */
+      }
+      footer {
+        margin-top: 40px;
+        border-top: 1px solid #6f6f6f;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 30px 100px;
+      }
+
+      .contact {
+        margin-top: 0px;
+        margin-bottom: 50px;
+      }
+      footer.adresse i {
+        margin-top: 10px;
+      }
+
+      .imgdmcl {
+        width: 270px;
+        height: 270px;
+        float: right;
+        border-radius: 50%;
+        margin: 20px;
+        shape-outside: circle();
+      }
+      .imgdmcl1 {
+        width: 470px;
+        height: 470px;
+        float: left;
+        border-radius: 50%;
+        margin: 20px;
+        shape-outside: circle();
+      }
+      .domicile h2 {
+        font-size: 20px;
+        margin-bottom: 60px;
+        margin-left: 100px;
+      }
+      .domicile p {
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 1.5;
+      }
+      .domicile ul {
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 1.5;
+      }
+      .offre {
+        text-align: center;
+      }
+      .offre h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 120px;
+      }
+      .offre h4 {
+        font-size: 25px;
+        text-align: center;
+      }
+      .offre h5 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: -100px;
+      }
+      .offre h6 {
+        font-size: 20px;
+        text-align: center;
+        color: yellow;
+      }
+      .offre p {
+        font-size: 15px;
+        text-align: center;
+      }
+      .juridique {
+        margin-left: 60px;
+      }
+      .domicile {
+        margin-right: 100px;
+      }
+    </style>
+    <!-- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     -->
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="onglets">
+        <a href="projet.html">ACCUEIL</a>
+        <a href="domiciliation.html">DOMICILIATION</a>
+        <a href="creation.html">CRÉATION D'ENTREPRISE</a>
+        <a href="compta.html">COMPTABILITÉ</a>
+        <a href="#services">AUTRES SERVICES</a>
+        <a href="contact1.html">CONTACT</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="affaire">
+        <img src="affaire.jpeg" alt="" class="imag" />
+      </div>
+      <center>
+        <div class="icons">
+          <i
+            class="fa fa-facebook-square"
+            style="font-size: 35px; color: black"
+            href="www.Facebook.com"
+          ></i>
+          <i
+            class="fa fa-google-plus-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i
+            class="fa fa-linkedin-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i class="fa fa-whatsapp" style="font-size: 35px; color: black"></i>
+          <i
+            class="fa fa-youtube-square"
+            style="font-size: 35px; color: black"
+          ></i>
+        </div>
+      </center>
+    </header>
+    <div class="domicile">
+      <h2>Comptabilité/Juridique</h2>
+      <img src="comptabilite-entreprise-btp.jpg" alt="" class="imgdmcl1" />
+
+      <h3>
+        Comptabilité Déclaration fiscale (TVA ; CNSS ; IR ; IS).... à partir de
+        200Dh /3 mois
+      </h3>
+
+      <p>
+        Toute entreprise doit avoir une comptabilité juste et sincère. Cela
+        intéresse les services fiscaux, les actionnaires et les banquiers qui
+        souhaitent évaluer l’état de santé des entreprises. Chaque année,
+        l’expert-comptable vérifie la régularité des comptes des entreprises
+        qu’il a en charge. Il établit ou fiabilise la comptabilité de ses
+        clients (artisans, commerçants, professions libérales, petites ou
+        grandes entreprises, associations). Il les conseille également sur leur
+        développement économique, leur fiscalité, les systèmes de gestion
+        informatisés adaptés. Chaque année, il arrête les bilans financiers de
+        ses clients mais ses missions peuvent varier selon les entreprises :
+        taille et type d’activité notamment. Aimer analyser les chiffres et être
+        rigoureux ne suffit pas. Le relationnel est au cœur du métier. En effet,
+        l’expert-comptable est souvent le conseiller privilégié du chef
+        d’entreprise en matière de gestion, de fiscalité, d’organisation, de
+        droit social. C’est un professionnel de contact qui exerce à titre
+        libéral, en cabinet d’expertise ou avec des associés. On le rencontre
+        également en entreprise sur des postes de cadre financier.
+      </p>
+
+      <h4>Comptabilité d'entreprise "Services En Ligne":</h4>
+      <p>
+        Conseil et Audit : Déclaration de TVA , Bilan , Etats divers, AGO, tenue
+        de comptes et conseil etc...
+      </p>
+      <div class="juridique">
+        <h4>Juridique:</h4>
+        <p>
+          Amendements : Transfert de siège social, Nomination de Gérant, Cession
+          de parts, Extension d'objet social etc...
+        </p>
+        <h4>Le Service « ATTESTATION » "Services En Ligne":</h4>
+        <p>
+          Les attestations mises en service sont : Attestation d'Inscription à
+          la Taxe Professionnelle Demande Code d'accès et Validation DGI
+        </p>
+        <h4>Demande RC en linge:</h4>
+        <ul>
+          <li>Demande d’attestation de régularité fiscale</li>
+          <li>Bulletin d’Identification Fiscale</li>
+          <li>Attestation de Chiffre d’affaires</li>
+          <li>Attestation du chiffre d'affaires réalisé à l'exportation</li>
+          <li>Attestation de Revenu</li>
+          <li>
+            Attestation de non déductibilité des cotisations d’assurance
+            retraite complémentaire
+          </li>
+          <li>Attestation d'imposition forfaitaire</li>
+          <li>Attestation de Résidence Fiscale (Certificate of residence)</li>
+          <li>
+            Attestation d’achat en exonération, en suspension de la TVA ou au
+            taux réduit de 7%
+          </li>
+          <li>
+            Suivi des dépôts de demandes d’attestations d’achat en exonération,
+            en suspension de la TVA ou au taux réduit de 7%
+          </li>
+          <li>Attestation de retenue à la source</li>
+          <li>Attestation de Radiation de la Taxe Professionnelle</li>
+          <li>
+            Attestation d’exonération de la Taxe d’Habitation -Taxe de Services
+            Communaux (TH/TSC)
+          </li>
+          <li>
+            Attestation d'Imposition à la Taxe d’Habitation -Taxe de Services
+            Communaux
+          </li>
+          <li>
+            Attestation de Non-imposition à la Taxe d’Habitation - Taxe de
+            Services Communaux
+          </li>
+          <li>
+            Attestation d’éligibilité de l’acquéreur à l’exonération de la TVA
+            du logement social
+          </li>
+          <li>Attestation de valeur locative</li>
+          <li>
+            Attestation de paiement de la Taxe Spéciale Annuelle sur les
+            Véhicules
+          </li>
+
+          <li>
+            Attestation d’exonération de la Taxe Spéciale Annuelle sur les
+            Véhicules
+          </li>
+        </ul>
+        <h4>Recherche Entreprise "Services En Ligne"</h4>
+        <div>
+          Pour la sécurité des transactions commerciales, le service « Recherche
+          entreprise » est accessible au public.
+        </div>
+        <div>
+          Il œuvre pour la transparence et la sécurité des transactions entre
+          entreprises,en permettant à toute personne
+        </div>
+        <div>
+          de s’assurer qu’une entreprise est bien identifiée auprès de Machrouhi
+          Affaire et d’obtenir les renseignements
+        </div>
+        <div>
+          suivants,sur simple des numéro ICE, IF, raison sociale ou RC :
+        </div>
+        <ul>
+          <li>Dénomination</li>
+          <li>Statut juridique</li>
+          <li>Tribunal</li>
+          <li>N° de RC</li>
+          <li>N° de ICE</li>
+          <li>Identifiant fiscal</li>
+          <li>Activité</li>
+          <li>Forme juridique</li>
+          <li>Date d'immatriculation</li>
+          <li>Capital (en MAD)</li>
+          <li>L’adresse.</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contact">
+        <i
+          ><p>Pour nous contacter</p>
+          <p>
+            Vous pouvez nous appeler ou laisser un message et nous vous
+            contacterons rapidement
+          </p></i
+        >
+      </div>
+      <div class="adresse">
+        <i class="fas fa-map-marker-alt">
+          Hay Safa Beni Mellal en face de Boucherie Esswiri</i
+        >
+        <i class="fas fa-phone-alt"> 0669433333 / 0612626261 </i>
+      </div>
+    </footer>
+  </body>
+</html>

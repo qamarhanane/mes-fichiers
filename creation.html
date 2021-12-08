@@ -1,0 +1,370 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Création d'entreprise</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Montserrat", sans-serif;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 5px solid #6f6f6f; */
+      }
+      nav h1 {
+        color: rgb(22, 20, 20);
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        /* margin-left: 5px; */
+        text-align: center;
+      }
+      nav .onglets {
+        margin-top: 10px;
+        margin-left: 500px;
+      }
+      nav .onglets a {
+        text-decoration: none;
+        color: rgb(22, 20, 20);
+        margin-right: 10px;
+        /* border-bottom: 1px solid rgb(22, 20, 20); */
+        padding-bottom: 15px;
+        font-family: "Playfair Display", serif;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      header {
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        color: white;
+        padding: 100px;
+        background-color: white;
+        /* border-bottom: 2px #cac5c5; */
+        border: 1px solid;
+        padding: 5px;
+        box-shadow: 3px 5px #cec8c8;
+        /* border-top: 5px solid #6f6f6f; */
+        /* background-image: url(affaire.jpeg); */
+      }
+      IMG.imag {
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        margin-top: -10px;
+        border-color: black;
+      }
+      header.icons {
+        color: black;
+        /* background-position: 25% 75%;
+        cursor: pointer; */
+      }
+      footer {
+        margin-top: 40px;
+        border-top: 1px solid #6f6f6f;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 30px 100px;
+      }
+
+      .contact {
+        margin-top: 0px;
+        margin-bottom: 50px;
+      }
+      /* footer p{
+        margin-top: -5px;
+        margin-bottom: 10px;   
+      } */
+      footer.adresse i {
+        margin-top: 10px;
+        margin-right: 20px;
+      }
+      .imgdmcl {
+        width: 270px;
+        height: 270px;
+        float: right;
+        border-radius: 50%;
+        margin: 20px;
+        shape-outside: circle();
+      }
+      .imgdmcl1 {
+        width: 470px;
+        height: 470px;
+        float: left;
+        border-radius: 50%;
+        margin: 20px;
+        shape-outside: circle();
+      }
+      .domicile h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .domicile p {
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 1.5;
+        margin-right: 60px;
+      }
+      .offre {
+        margin-left: 40px;
+        /* line-height: 1.5; */
+      }
+      .offre h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 120px;
+      }
+      .offre h4 {
+        font-size: 25px;
+        /* text-align: center; */
+      }
+      .offre h5 {
+        font-size: 20px;
+        /* text-align: center; */
+        /* margin-top: -100px; */
+      }
+      .offre h6 {
+        font-size: 20px;
+        /* text-align: center; */
+        color: yellow;
+      }
+      .offre ul {
+        font-size: 15px;
+        /* text-align: center; */
+        line-height: 1.5;
+      }
+      .domicile h2 {
+        font-size: 20px;
+        margin-bottom: 60px;
+        margin-left: 100px;
+      }
+      .juridique {
+        margin-left: 60px;
+      }
+      .titre {
+        line-height: 0.5;
+        margin-left: 45px;
+      }
+    </style>
+    <!-- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     -->
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="onglets">
+        <a href="projet.html">ACCUEIL</a>
+        <a href="domiciliation.html">DOMICILIATION</a>
+        <a href="creation.html">CRÉATION D'ENTREPRISE</a>
+        <a href="compta.html">COMPTABILITÉ</a>
+        <a href="#services">AUTRES SERVICES</a>
+        <a href="contact1.html">CONTACT</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="affaire">
+        <img src="affaire.jpeg" alt="" class="imag" />
+      </div>
+      <center>
+        <div class="icons">
+          <i
+            class="fa fa-facebook-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i
+            class="fa fa-google-plus-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i
+            class="fa fa-linkedin-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i class="fa fa-whatsapp" style="font-size: 35px; color: black"></i>
+          <i
+            class="fa fa-youtube-square"
+            style="font-size: 35px; color: black"
+          ></i>
+        </div>
+      </center>
+    </header>
+    <div class="domicile">
+      <h2>Création D’entreprise au Maroc:</h2>
+      <img src="entrprse.jpg" alt="" class="imgdmcl1" />
+
+      <h3>
+        POUR POUVOIR ENTAMER LA PROCÉDURE DE CRÉATION D’ENTREPRISE AU MAROC NOUS
+        AVONS BESOIN DES ÉLÉMENTS SUIVANTS:
+      </h3>
+      <p></p>
+      <p>
+        1 . Vos Choix de dénominations Sociales (de préférence deux choix par
+        ordre de priorité)
+      </p>
+      <p>2 . La forme juridique de votre choix</p>
+      <p>
+        3 . La ou les copie(s) de(s) Carte(s) Nationale (pour les Marocains), la
+        Carte de séjour (pour les résidents étrangers) et le passeport (pour les
+        étrangers non Résidents) des associés et des Gérants.
+      </p>
+      <p>4 . L’objet social (l’activité) de l’entreprise</p>
+      <p>
+        5 . l’adresse (soit un certificat de Propriété, contrat de bail ou bien
+        une Domiciliation dans nos Locaux)
+      </p>
+      <p>6 . la répartition des parts sociales entre les associés</p>
+      <p>7 . le capital a mentionner sur les statuts</p>
+      <p>8 . La gérance (un ou plusieurs Gérants est possible)</p>
+      <h3>Durée de la procédure de création d’entreprise :</h3>
+      <p>
+        la durée dépend de la ville de Domiciliation , mais généralement une
+        fois les documents remis par le client a l’agence de son choix une
+        création simple sur une ville comme casablanca prends 8 jours ouvrables
+        (notez que ce délai ne prend pas en compte les périodes de Grèves des
+        administrations concernées par les procédures de création d’entreprise
+        ni les pannes de systemes qui peuvent les impacter)
+      </p>
+      <div class="juridique">
+        <p>
+          Notez bien que Machrouhi Affaire prend en charge toute la procédure de
+          création et de Domiciliation de votre entreprise même si vous
+          n’habitez pas dans la ville ou vous aurez choisi de la domicilier.
+        </p>
+        <h3>Autres services :</h3>
+        <p>
+          Machrouhi Affaire vous propose aussi selon les packs sélectionnés tous
+          les outils nécessaires à votre activité.
+        </p>
+        <p>
+          Carte de visite, cachet d’entreprise, logo d’entreprise, site web ...
+        </p>
+        <p>
+          Et tout ça avec des prix compétitifs et parmi les meilleurs tarifs du
+          marché !
+        </p>
+        <p>
+          Nous sommes votre centre d’affaires de confiance et nous vous
+          souhaitons la bienvenue chez Machrouhi Affaire .
+        </p>
+      </div>
+    </div>
+    <div class="offre">
+      <div class="titre">
+        <h2>Offres spéciales</h2>
+        <h4>PACK BASIC</h4>
+        <h5>2000 DH</h5>
+        <h6>-35% de remise</h6>
+      </div>
+      <ul>
+        <li>Certificat négatif (nom de l’entreprise)</li>
+        <li>Enregistrement des statuts</li>
+        <li>Registre du commerce Modèle 4</li>
+        <li>Registre du commerce Modèle J</li>
+        <li>Annonce légale ( journal)</li>
+        <li>D'identification DE LA TAXE PROFESSIONNELLE</li>
+        <li>D'identification fiscale</li>
+        <li>S'inscrire à la sécurité sociale ( CNSS )</li>
+      </ul>
+      <div class="titre">
+        <h4>PACK START</h4>
+        <h5>3500 DH</h5>
+        <h6>-35% de remise</h6>
+      </div>
+      <ul>
+        <li>Certificat négatif (nom de l’entreprise)</li>
+        <li>
+          Une adresse fiscale pour le siège de votre entreprise, ainsi qu’une
+          gestion efficace de votre courrier
+        </li>
+        <li>Domiciliation 12 Mois Renouvelable</li>
+        <li>Enregistrement des statuts</li>
+        <li>Registre du commerce Modèle 4</li>
+        <li>Registre du commerce Modèle J</li>
+        <li>Annonce légale ( journal)</li>
+        <li>D'identification DE LA TAXE PROFESSIONNELLE</li>
+        <li>D'identification fiscale</li>
+      </ul>
+      <div class="titre">
+        <h4>PACK PRO</h4>
+        <h5>5000 Dh</h5>
+        <h6>-35% de remise</h6>
+      </div>
+      <ul>
+        <li>Certificat négatif (nom de l’entreprise)</li>
+        <li>
+          Une adresse fiscale pour le siège de votre entreprise, ainsi qu’une
+          gestion efficace de votre courrier
+        </li>
+        <li>Domiciliation 6 Plus 6 Mois Gratuit</li>
+        <li>Enregistrement des statuts</li>
+        <li>Registre du commerce Modèle 4</li>
+        <li>Registre du commerce Modèle J</li>
+        <li>Annonce légale ( journal)</li>
+        <li>D'identification DE LA TAXE PROFESSIONNELLE</li>
+        <li>D'identification fiscale</li>
+        <li>
+          Scan Et Envoie De Votre Courrier Par Mail (Avec Autorisation) (12
+          Mois)
+        </li>
+        <li>
+          Notification par mail ou SMS lors de la réception du courrier (12
+          Mois)
+        </li>
+        <li>Cachet de la société Gratuitement</li>
+        <li>Petit site professionnel pour présenter sa société</li>
+        <li>Hébergement, 10Go D'espace Web</li>
+        <li>Design Personnalisé Professionnel</li>
+        <li>Trois page</li>
+        <li>Nom De Domaine Gratuit Inclus (12 Mois)</li>
+        <li>2 Adresses E-Mail Pro (Nom@Votreentreprise.Com )</li>
+        <li>Maintenance</li>
+      </ul>
+    </div>
+
+    <footer>
+      <div class="contact">
+        <i
+          ><p>Pour nous contacter</p>
+          <p>
+            Vous pouvez nous appeler ou laisser un message et nous vous
+            contacterons rapidement
+          </p></i
+        >
+      </div>
+      <div class="adresse">
+        <i class="fas fa-map-marker-alt">
+          Hay Safa Beni Mellal en face de Boucherie Esswiri</i
+        >
+        <i class="fas fa-phone-alt"> 0669433333 / 0612626261 </i>
+      </div>
+    </footer>
+  </body>
+</html>

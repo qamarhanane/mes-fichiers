@@ -1,0 +1,328 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Montserrat", sans-serif;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 5px solid #6f6f6f; */
+      }
+      nav h1 {
+        color: rgb(22, 20, 20);
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        /* margin-left: 5px; */
+        text-align: center;
+      }
+      nav .onglets {
+        margin-top: 10px;
+        margin-left: 500px;
+      }
+      nav .onglets a {
+        text-decoration: none;
+        color: rgb(22, 20, 20);
+        margin-right: 10px;
+        /* border-bottom: 1px solid rgb(22, 20, 20); */
+        padding-bottom: 15px;
+        font-family: "Playfair Display", serif;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      header {
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        color: white;
+        padding: 100px;
+        background-color: white;
+        /* border-bottom: 2px #cac5c5; */
+        border: 1px solid;
+        padding: 5px;
+        box-shadow: 3px 5px #cec8c8;
+        /* border-top: 5px solid #6f6f6f; */
+        /* background-image: url(affaire.jpeg); */
+      }
+      IMG.imag {
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        margin-top: -10px;
+        border-color: black;
+      }
+      header.icons {
+        color: black;
+        /* background-position: 25% 75%;
+        cursor: pointer; */
+      }
+      footer {
+        margin-top: 40px;
+        border-top: 1px solid #6f6f6f;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 30px 100px;
+      }
+      /* footer p{
+        margin-top: -5px;
+        margin-bottom: 10px;   
+      } */
+      footer.adresse i{
+margin-top: 10px;
+margin-right: 20px;
+      }
+      .contact {
+        margin-top: 0px;
+        margin-bottom: 50px;
+      }
+      .imgdmcl {
+        width: 270px;
+        height: 270px;
+        float: right;
+        border-radius: 50%;
+        margin: 20px;
+        shape-outside: circle();
+      }
+      .imgdmcl1 {
+        width: 470px;
+        height: 470px;
+        float: left;
+        border-radius: 50%;
+        margin: 20px;
+        shape-outside: circle();
+      }
+      .domicile h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .domicile p {
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 1.5;
+      }
+      .offre{
+         margin-left: 40px;
+         /* line-height: 1.5; */
+          
+      }
+      .offre h2{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 40px;
+      }
+      .offre h4{
+        font-size: 25px;
+        /* text-align: center; */
+      }
+      .offre h5{
+        font-size: 20px;
+        /* text-align: center; */
+       /* margin-top: -100px; */
+      }
+      .offre h6{
+        font-size: 20px;
+        /* text-align: center; */
+        color: yellow;
+      }
+      .offre ul{
+        font-size: 15px;
+        /* text-align: center; */
+        line-height: 1.5;
+      }
+      /* .offre p{
+        font-size: 15px;
+        text-align: center;
+      } */
+      .domicile h2 {
+        font-size: 20px;
+        margin-bottom: 60px;
+        margin-left: 100px;
+      }
+      .domicile {
+        margin-right: 100px;
+      }
+      .titre{
+        line-height: 0.5;
+        margin-left: 45px;
+      }
+    </style>
+    <!-- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     -->
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="onglets">
+          
+        <a href="projet.html">ACCUEIL</a> 
+        <a href="domiciliation.html">DOMICILIATION</a>
+        <a href="creation.html">CRÉATION D'ENTREPRISE</a>
+        <a href="compta.html">COMPTABILITÉ</a>
+        <a href="#services">AUTRES SERVICES</a>
+        <a href="contact1.html">CONTACT</a>
+    
+      </div>
+    </nav>
+
+    <header>
+      <div class="affaire">
+        <img src="affaire.jpeg" alt="" class="imag" />
+      </div>
+      <center>
+        <div class="icons">
+          <i
+            class="fa fa-facebook-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i
+            class="fa fa-google-plus-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i
+            class="fa fa-linkedin-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i class="fa fa-whatsapp" style="font-size: 35px; color: black"></i>
+          <i
+            class="fa fa-youtube-square"
+            style="font-size: 35px; color: black"
+          ></i>
+        </div>
+      </center>
+    </header>
+    <div class="domicile">
+      <h2>DÉVELOPPEMENT WEB </h2>
+      <img src="web.jpg" alt="" class="imgdmcl1" />
+    
+      <h3> ENTREPRISE DE DEVELOPPEMENT WEB</h3>
+     
+      <p>Machrouhi Affaire est une agence web basée à CASABLANCA spécialisée dans le développement web sur mesure. Nous appartenons à la société WORLD BUSINESS CENTER dont les compétences dans l’univers digital évoluent parallèlement aux nouvelles technologies.
+        Au sein de notre agence web CASA, nous épaulons nos clients dans chaque étape: structuration, design, hébergement, référencement naturel ou payant. Notre portfolio regorge de nos réalisations diversifiées : des jonctions fluides entre les éléments de votre portail web, une simplicité d’utilisation et une originalité et esthétisme moderne incomparables.
+        Les solutions proposées sont de ce fait étudiées pour s’accorder avec les contraintes financières et marketing. Notre objectif est de garantir une parfaite compatibilité des options mises à votre disposition avec la nature de vos activités.
+        Les fonctionnalités, le paramétrage, l’évolutivité, tout cela fait partie de nos principales préoccupations.
+        Notre agence s’est promise de vous épauler et de vous assister pas à pas vers la création ultime de votre site web. Préfériez-vous un site d’exposition de produits ou de services ? Un site dédié à l’apprentissage en ligne ? Une plateforme de business numérique ? Ou tout simplement un espace convivial et propice à un forum à haut trafic ? Ne cherchez pas plus loin que notre équipe, ne gâchez plus votre énergie, on est les spécialistes du développement Web sur mesure les plus pérennes et de développement application web sur mesure.
+        
+        En se référant aux défis impliqués, enjeux de taille et nature du marché auquel vous envisagiez de vous attaquer, on va recourir aux potentiels de nos adjoints et collaborateurs et tirer profit de nos projets réalisés, dans l’unique but de vous détacher du lot.</p>
+      </div>
+     <div class="offre">
+    </p>
+    <div class="titre">
+     <h2>Offres spéciales</h2>
+      <h4>PACK SITE STARTER</h4>
+      <h5>150 DH/Mois Pour la 1ère année et 100 DH/Mois Après la 1ère année</h5>
+    </div>
+      <ul>
+        <li>
+     Design Personnalisé Professionnel</li>
+     <li> 15 modèles</li>
+      <li>Trafic Illimité</li>
+      <li>Référencement SEO (Optimisation Du Moteur De Recherche)</li>
+      <li> Marketing des médias sociaux (Facebook, Inked’In, Twitter, GooGle + ...)</li>
+      <li> Assistance par e-mail 24/7</li>
+      <li>Hébergement, 10 Go D'espace Web</li>
+      <li> Nom De Domaine Gratuit Inclus (12 Mois)</li>
+      <li> 2 Adresses E-Mail Pro (Nom@Votreentreprise.Com)</li>
+      <li> 3 pages</li>
+     <li> Maintenance</li>
+    </ul>
+    <div class="titre">
+      <h4>PACK SITE PROFESSIONEL</h4>
+      <h5> 600 DH/Mois Pour la 1ère année et 400 DH/Mois Après la 1ère année</h5>
+      
+    </div>
+    <ul>
+      <li>Auto entrepreneurs, profession libérale, artisans, restaurants..</li>
+        <li>TOUT EST COMPRIS DANS NOTRE SOLUTION CLÉS EN MAIN DE CRÉATION DE SITE PROFESSIONNEL</li>
+        <li>CRÉATION DE SITE PROFESSIONNEL</li>
+      <li> Design Personnalisé  Professionnel.</li>
+      <li> Trafic Illimité.</li>
+      <li> Référencement SEO(Optimisation Du Moteur De  Recherche).</li>
+      <li> Social Media Marketing (Facebook,Inked’In,Twitter,GooGle+...).</li>
+      <li> 24/7 Phone & E-Mail Support.</li>
+      <li> Hébergement, 250 Go D'espace Web</li>
+      <li> Nom De Domaine Gratuit Inclus (12 Mois).</li>
+      <li> 10 Adresses E-Mail Pro (Nom@Votreentreprise.Com).</li>
+      <li>15 Pages.</li>
+      <li>Diaporama Dynamique(3 Slider Différents).</li>
+      <li>Formulaire Contact/Devis.</li>
+      <li> Carte Interactive Google Maps.</li>
+      <li> Maintenance, SAV, Sécurité.</li>
+      <li> Certificat SSL</li>
+    </ul>
+
+     <div class="titre">
+      <h4>PACK SITE E-COMMERCE</h4>
+      <h5> 13000 DH/Mois Pour la 1ère année et 900 DH/MoisAprès la 1ère année</h5>
+    
+    </div>
+    <ul>
+     <li>PME, PMI, Entreprises</li>
+     <li>TOUT EST COMPRIS DANS NOTRE SOLUTION CLÉS EN MAIN DE CRÉATION DE SITE E-COMMERCE</li>
+   
+      <li> Design Personnalisé  Professionnel</li>
+        <li>Trafic Illimité</li>
+          <li> Référencement SEO(Optimisation Du Moteur De  Recherche).</li>
+         <li>Social Media Marketing(Facebook,Inked’In,Twitter,GooGle+...).</li>
+     <li>24/7 Phone & E-Mail Support</li>
+    <li>Hébergement, Espace Disque Illimité</li>
+        <li> Nom De Domaine Gratuit Inclus (12 Mois).</li>
+         <li> Boites E-Mail Pro Illimitées  Professionnelles (Nom@Votreentreprise.Com)</li>
+       <li> Nombres De Produits Illimités</li>
+     <li> Statistiques De Fréquentation.</li>
+     <li> Formulaire Contact/Devis</li>
+  <li>Carte Interactive Google  Maps</li>
+    <li> Maintenance, SAV, Sécurité.</li>
+    <li> Gestion Des Promotions Et Des Lots.</li>
+    <li> Système De Paiement En Ligne Sécurisé</li>
+  <li> Gestion Des Commandes, De Produits, Du Panier, Des Clients...</li>
+  </ul>
+</div>
+    
+
+    <footer>
+      <div class="contact">
+          <i><p>Pour nous contacter</p>
+          <p>Vous pouvez nous appeler ou laisser un message et nous vous contacterons rapidement
+         </p></i>
+      </div>
+      <div class="adresse">
+        <i class="fas fa-map-marker-alt">
+          Hay Safa Beni Mellal en face de Boucherie Esswiri</i
+        >
+        <i class="fas fa-phone-alt"> 0669433333 / 0612626261 </i>
+      </div>
+    </footer>
+  </body>
+</html>

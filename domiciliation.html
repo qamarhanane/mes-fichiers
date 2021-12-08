@@ -1,0 +1,326 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domiciliation</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+            @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+            @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+            html {
+              scroll-behavior: smooth;
+            }
+            body {
+              margin: 0px;
+              padding: 0px;
+              font-family: "Montserrat", sans-serif;
+            }
+            nav {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+              /* border-bottom: 5px solid #6f6f6f; */
+            }
+            nav h1 {
+              color: rgb(22, 20, 20);
+              font-family: "Playfair Display", serif;
+              font-size: 30px;
+              /* margin-left: 5px; */
+              text-align: center;
+            }
+            nav .onglets {
+              margin-top: 10px;
+              margin-left: 500px;
+            }
+            nav .onglets a {
+              text-decoration: none;
+              color: rgb(22, 20, 20);
+              margin-right: 10px;
+              /* border-bottom: 1px solid rgb(22, 20, 20); */
+              padding-bottom: 15px;
+              font-family: "Playfair Display", serif;
+              font-size: 16px;
+              margin-bottom: 30px;
+            }
+            header {
+              margin-top: 3px;
+              display: flex;
+              flex-direction: column;
+              /* align-items: center;
+              background-repeat: no-repeat;
+              background-size: cover; */
+              color: white;
+              padding: 100px;
+              background-color: white;
+              /* border-bottom: 2px #cac5c5; */
+              border: 1px solid;
+              padding: 5px;
+              box-shadow: 3px 5px #cec8c8;
+              /* border-top: 5px solid #6f6f6f; */
+              /* background-image: url(affaire.jpeg); */
+            }
+            IMG.imag {
+              align-items: center;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 450px;
+              margin-top: -10px;
+              border-color: black;
+            }
+            header.icons {
+              color: black;
+              /* background-position: 25% 75%;
+              cursor: pointer; */
+            }
+            footer {
+              margin-top: 40px;
+              border-top: 1px solid #6f6f6f;
+              background-color: rgb(0, 0, 0);
+              color: #fff;
+              padding: 30px 100px;
+
+            }
+            footer p{
+              margin-top: -5px;
+              margin-bottom: 10px;
+            }
+            footer.adresse i{
+      margin-top: 10px;
+      margin-right: 20px;
+            }
+            .contact {
+              margin-top: 0px;
+              margin-bottom: 50px;
+            }
+            .imgdmcl {
+              width: 270px;
+              height: 270px;
+              float: right;
+              border-radius: 50%;
+              margin: 20px;
+              shape-outside: circle();
+            }
+            .imgdmcl1 {
+              width: 470px;
+              height: 470px;
+              float: left;
+              border-radius: 50%;
+              margin: 20px;
+              shape-outside: circle();
+            }
+            .domicile h2 {
+              font-size: 20px;
+              margin-bottom: 20px;
+              margin-right: 60px;
+            }
+            .domicile p {
+              font-size: 15px;
+              margin-top: 10px;
+              line-height: 1.5;
+              margin-right: 60px;
+            }
+            .offre {
+              margin-left: 40px;
+              /* line-height: 1.5; */
+            }
+            .offre h2{
+              font-size: 30px;
+              text-align: center;
+              margin-top: 120px;
+            }
+            .offre h4{
+              font-size: 25px;
+              /* text-align: center; */
+            }
+            .offre h5{
+              font-size: 20px;
+              /* text-align: center; */
+             margin-top: -100px;
+            }
+            .offre h6{
+              font-size: 20px;
+              /* text-align: center; */
+              color: yellow;
+            }
+            /* .offre p{
+              font-size: 15px;
+              /* text-align: center; */
+            } */
+            .offre ul {
+              font-size: 15px;
+              /* text-align: center; */
+              line-height: 1.5;
+            }
+            .domicile h2 {
+              font-size: 20px;
+              margin-bottom: 60px;
+              margin-left: 100px;
+            }
+    </style>
+    <!-- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     -->
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="onglets">
+        <a href="projet.html">ACCUEIL</a>
+        <a href="domiciliation.html">DOMICILIATION</a>
+        <a href="creation.html">CRÉATION D'ENTREPRISE</a>
+        <a href="compta.html">COMPTABILITÉ</a>
+        <a href="#services">AUTRES SERVICES</a>
+        <a href="contact1.html">CONTACT</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="affaire">
+        <img src="affaire.jpeg" alt="" class="imag" />
+      </div>
+      <center>
+        <div class="icons">
+          <i
+            class="fa fa-facebook-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i
+            class="fa fa-google-plus-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i
+            class="fa fa-linkedin-square"
+            style="font-size: 35px; color: black"
+          ></i>
+          <i class="fa fa-whatsapp" style="font-size: 35px; color: black"></i>
+          <i
+            class="fa fa-youtube-square"
+            style="font-size: 35px; color: black"
+          ></i>
+        </div>
+      </center>
+    </header>
+    <div class="domicile">
+      <h2>La Domiciliation</h2>
+      <img src="domiciliation.jpeg" alt="" class="imgdmcl1" />
+
+      <h2>
+        Une Adresse Prestigieuse Pour Votre Entreprise À Partir De 100 TTC DHs /
+        Mois Le Siège Social De Votre Entreprise Au Meilleur Prix Au Maroc
+      </h2>
+      <p>
+        Machrouhi Affaire est une société qui offre des solutions et des
+        prestations innovantes dans le secteur de la domiciliation entreprise
+        Marocain. Nous avons développé des produits spécifiques afin de
+        permettre aux entrepreneurs marocain et étrangers de démarrer rapidement
+        leur activité en toute sécurité et dans les meilleures conditions
+        possibles. Vous disposez dès le départ et selon votre pack d’une
+        domiciliation commerciale , d’une adresse, d’une secrétaire qui gère vos
+        appels et votre courrier, des bureaux partagés avec tout le matériel
+        nécessaire pour vos présentations et vos rencontres d’affaires. CS+ vous
+        propose aussi selon les packs sélectionnés tous les outils nécessaires à
+        votre activité. Carte de visite, cachet d’entreprise, logo d’entreprise,
+        site web one page. Et tout ça avec des prix compétitifs et parmi les
+        meilleurs tarifs du marché ! Nous sommes votre centre d’affaires de
+        confiance et nous vous souhaitons la bienvenue chez CS Plus. Procédures:
+        Grâce à sa présence nationale et internationale, le groupe maure offre à
+        ces clients un grand choix d'adresses de domiciliation d'entreprise au
+        maroc à casablanca, rabat, tanger, et Beni Mellal. les documents
+        nécessaires pour la domiciliation d’entreprise au maroc: 1-La ou les
+        copie (s) de (s) Carte (s) Nationale (pour les Marocains), la Carte de
+        séjour (pour les résidents étrangers) et le passeport (pour les
+        étrangers non Résidents) des associés et des Gérants 2-le certificat
+        négatif (si vous ne l’avez pas sur l’obtention pour vous) Durée de la
+        procédure de domiciliation d’entreprise: la procédure une fois
+        l’engagement de Domiciliation signé par le client ne prend généralement
+        pas plus de 24 heures.
+      </p>
+    </div>
+
+    <div class="offre">
+      <div class="titre">
+        <h2>Offres spéciales</h2>
+        <h4>PACK BASIC</h4>
+        <h6>-35% de remise</h6>
+        <h5>104 DH / TTC Par Mois</h5>
+      </div>
+      <ul>
+        <li>Adresses Administratives</li>
+        <li>Domiciliation Juridique, Fiscale</li>
+        <li>Réception du Courrier</li>
+        <li>Notification par Mail ou SMS Lors de la Réception du Courrier</li>
+      </ul>
+      <div class="titre">
+        <h4>PACK START</h4>
+        <h6>-40% de remise</h6>
+        <h5>150 DH / TTC Par Mois</h5>
+      </div>
+      <ul>
+        <li>Adresses Administratives</li>
+        <li>
+          Domiciliation Juridique, Fiscale et Commerciale de Votre Siège Social
+        </li>
+        <li>
+          Réception du Courrier * Notification par Mail ou SMS Lors de la
+          Réception du Courrier
+        </li>
+        <li>Scan Et Envoie De Votre Courrier Par Mail (Avec Autorisation)</li>
+      </ul>
+      <div class="titre">
+        <h4>PACK PRO</h4>
+        <h6>-43% de remise</h6>
+        <h5>200 DH / TTC Par Mois</h5>
+      </div>
+      <ul>
+        <li>
+          Domiciliation Juridique, Fiscale et Commerciale de Votre Siège Social
+        </li>
+        <li>Contrat de Domiciliation</li>
+        <li>Attestation De Domiciliation</li>
+        <li>Adresses Administratives</li>
+        <li>Réception du Courrier</li>
+        <li>Notification par Mail ou SMS Lors de la Réception du Courrier</li>
+        <li>Scan Et Envoie De Votre Courrier Par Mail (Avec Autorisation)</li>
+        <li>Petit site professionnel pour présenter sa société</li>
+        <li>Hébergement, 10Go D'espace Web</li>
+        <li>Design Personnalisé Professionnel</li>
+        <li>Trois page</li>
+        <li>Nom De Domaine Gratuit Inclus (12 Mois)</li>
+        <li>2 Adresses E-Mail Pro (Nom@Votreentreprise.Com )</li>
+        <li>Maintenance</li>
+      </ul>
+    </div>
+
+    <footer>
+      <div class="contact">
+        <i
+          ><p>Pour nous contacter</p>
+          <p>
+            Vous pouvez nous appeler ou laisser un message et nous vous
+            contacterons rapidement
+          </p></i
+        >
+      </div>
+      <div class="adresse">
+        <i class="fas fa-map-marker-alt">
+          Hay Safa Beni Mellal en face de Boucherie Esswiri</i
+        >
+        <i class="fas fa-phone-alt"> 0669433333 / 0612626261 </i>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .IMG1 {
+        overflow: hidden;
+        position: relative;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 5px solid #6f6f6f; */
+      }
+      nav h1 {
+        color: rgb(22, 20, 20);
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        /* margin-left: 5px; */
+        text-align: center;
+      }
+      nav .onglets {
+        margin-top: 10px;
+        margin-left: 500px;
+      }
+      nav .onglets a {
+        text-decoration: none;
+        color: rgb(22, 20, 20);
+        margin-right: 10px;
+        /* border-bottom: 1px solid rgb(22, 20, 20); */
+        padding-bottom: 15px;
+        font-family: "Playfair Display", serif;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      .contact-page {
+        width: 100%;
+        max-width: 1400px;
+        padding: 50px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .contact-page {
+        position: relative;
+      }
+      .centre {
+        opacity: 0.4;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+      }
+
+      h3 {
+        width: 100%;
+        margin-bottom: 80px;
+        text-transform: uppercase;
+        color: black;
+        font-size: 40px;
+      }
+      h4 {
+        width: 100%;
+        margin-bottom: 80px;
+        margin-top: -50px;
+        text-transform: uppercase;
+        color: black;
+        font-size: 25px;
+      }
+
+      .contact-info,
+      .contact-form {
+        flex: 1;
+      }
+
+      .item {
+        margin-bottom: 24px;
+        font-size: 16px;
+        color: black;
+      }
+
+      /* .icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        /* background-color: yellow; */
+      /* text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 16px;
+      } */
+      */ .contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* margin-top: -20px; */
+      }
+
+      .textb {
+        width: calc(50% - 10px);
+        height: 50px;
+        padding: 12px;
+        background-color: white;
+        border: none;
+        color: black;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        opacity: 0.9;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 200px;
+        max-height: 400px;
+        resize: vertical;
+        padding: 12px;
+        background-color: white;
+        border: none;
+
+        color: black;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        opacity: 0.9;
+      }
+
+      .btn {
+        width: 120px;
+        height: 40px;
+        margin-left: auto;
+        background-color: white;
+        border: none;
+        color: black;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: 2px solid white;
+        transition: 0.3s linear;
+        border-radius: 25px;
+        float: left;
+        opacity: 0.9;
+      }
+
+      .btn:hover {
+        background-color: transparent;
+        color: black;
+      }
+
+      @media screen and (max-width: 980px) {
+        .contact-page {
+          max-width: 800px;
+        }
+        h2 {
+          font-size: 40px;
+          margin-bottom: 40px;
+        }
+
+        .contact-info,
+        .contact-form {
+          flex: 100%;
+          margin-bottom: 30px;
+        }
+        .textb {
+          width: 100%;
+        }
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/51f7ea6787.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="IMG1">
+      <img src="centre2.jpg" alt="" class="centre" />
+      <nav>
+        <div class="onglets">
+          <a href="projet.html">ACCUEIL</a>
+          <a href="domiciliation.html">DOMICILIATION</a>
+          <a href="creation.html">CRÉATION D'ENTREPRISE</a>
+          <a href="compta.html">COMPTABILITÉ</a>
+          <a href="#services">AUTRES SERVICES</a>
+          <a href="contact1.html">CONTACT</a>
+        </div>
+      </nav>
+
+      <div class="contact-page">
+        <h3>Contactez Nous</h3>
+        <h4>Nous Somme Toujours à Votre Disposition</h4>
+        <div class="contact-info">
+          <div class="item">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            Hay Safa Beni Mellal en face de Boucherie Esswiri
+          </div>
+          <div class="item">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            0669433333/0612626261
+          </div>
+
+          <div class="item">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            MachrouhiAffaire@gmail.com
+          </div>
+          <div class="item">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            Du Lundi Au Vendredi : 8:00 AM À 18:00 PM
+          </div>
+        </div>
+        <form action="" class="contact-form">
+          <input type="text" class="textb" placeholder=" Nom" />
+          <input type="text" class="textb" placeholder=" Prenom" />
+          <input type="text" class="textb" placeholder="Telephone" />
+          <input type="email" class="textb" placeholder=" Email" />
+
+          <textarea placeholder=" Message"></textarea>
+          <input type="submit" class="btn" value="Envoyer" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
